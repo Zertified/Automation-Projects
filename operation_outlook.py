@@ -1,7 +1,7 @@
 import pyautogui
 
 email = '9bensos@royalhospitalschool.org'
-password = 'Olufunbi07'
+password = '########'
 print(pyautogui.size())
 
 print(pyautogui.position())
