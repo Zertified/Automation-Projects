@@ -1,9 +1,12 @@
+# This is  a program that plots a graph based on the amount of Covid Cases in the Uk there are.
+
 from requests import get
 import json
 import datetime
 import tkinter
 import matplotlib.pyplot as plt
 
+# This is to get the dates
 x = datetime.datetime.now()
 
 
@@ -18,7 +21,7 @@ def get_data(url):
         
     return response.json()
     
-
+# This is an api 
 endpoint = (
 'https://api.coronavirus.data.gov.uk/v1/data?'
 'filters=areaType=nation;areaName=england&'
